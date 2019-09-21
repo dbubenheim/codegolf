@@ -11,25 +11,25 @@ class IsUppercase {
 }
 
 
-fun sumOfPowers(n: Int, d: Int) : Int {
+fun sumOfPowers(n: Int, d: Int): Int {
     return (1..n).sumBy { i ->
 
         //println("i: $i")
         var cur = 0
         run loop@{
-        (n downTo 0).forEach { k ->
-            //println("k: $k")
-            val p = Math.pow(d.toDouble(), k.toDouble())
-            //println("p: $p")
-            val f = i % p
-            //println("f: $f")
-            if (f == 0.0) {
-                println("Aktuelles k: $k")
-                cur += k
-                println("cur: $cur")
-                return@loop
+            (n downTo 0).forEach { k ->
+                //println("k: $k")
+                val p = Math.pow(d.toDouble(), k.toDouble())
+                //println("p: $p")
+                val f = i % p
+                //println("f: $f")
+                if (f == 0.0) {
+                    println("Aktuelles k: $k")
+                    cur += k
+                    println("cur: $cur")
+                    return@loop
+                }
             }
-        }
         }
 
         println("cur: $cur")
