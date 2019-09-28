@@ -1,5 +1,8 @@
 package codesignal
 
+/*
+ * https://app.codesignal.com/challenge/KbNFxbXFsiokxCDJF
+ */
 class ElectionWinners {
 
     val electionsWinners = { v: List<Int>, k: Int ->
