@@ -1,4 +1,4 @@
-package codesignal
+package codesignal.challenge
 
 fun knapsackLight2(a: Int, b: Int, m: Int) = when {
     a + b <= m -> "both"

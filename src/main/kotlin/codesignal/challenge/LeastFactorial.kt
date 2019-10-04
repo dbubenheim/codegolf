@@ -1,4 +1,4 @@
-package codesignal
+package codesignal.challenge
 
 var s = 1
 val leastFactorial = { n: Int ->

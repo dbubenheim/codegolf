@@ -1,4 +1,4 @@
-package codesignal
+package codesignal.challenge
 
 class IsUppercase {
 
@@ -36,15 +36,6 @@ fun sumOfPowers(n: Int, d: Int): Int {
         cur
     }.also { println("Ergebnis: n: $n, d: $d = $it") }
 }
-
-
-fun main(args: Array<String>) {
-
-    //sumOfPowers(2, 2)
-    //sumOfPowers(10, 3)
-    sumOfPowers(20, 4)
-}
-
 
 fun sumOfPowers2(n: Int, d: Int) =
         (1..n).sumBy {

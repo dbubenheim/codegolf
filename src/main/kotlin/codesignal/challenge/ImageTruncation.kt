@@ -1,4 +1,4 @@
-package codesignal
+package codesignal.challenge
 
 class ImageTruncation {
 
