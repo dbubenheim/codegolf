@@ -5,9 +5,9 @@ class HigherVersion {
     companion object {
 
         fun higherVersion(a: String, b: String): Boolean {
-            for (t in a.split(".").zip(b.split("."))) {
-                val f = t.first.toInt()
-                val g = t.second.toInt()
+            a.split(".").zip(b.split(".")).map {
+                val f = it.first.toInt()
+                val g = it.second.toInt()
                 if (f != g) return f > g
             }
             return false
