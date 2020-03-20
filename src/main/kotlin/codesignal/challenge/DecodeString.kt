@@ -9,9 +9,9 @@ class DecodeString {
 
         @JvmStatic
         fun main(args: Array<String>) {
-//            assertEquals(decodeString("4[ab]"), "abababab")
-//            assertEquals(decodeString("2[b3[a]]"), "baaabaaa")
-//            assertEquals(decodeString("z1[y]zzz2[abc]"), "zyzzzabcabc")
+            assertEquals(decodeString("4[ab]"), "abababab")
+            assertEquals(decodeString("2[b3[a]]"), "baaabaaa")
+            assertEquals(decodeString("z1[y]zzz2[abc]"), "zyzzzabcabc")
             assertEquals(decodeString("100[codesignal]"), "codesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignalcodesignal")
         }
 
