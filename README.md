@@ -4,5 +4,7 @@ My very own solutions to problems published on [codesignal.com](http://www.codes
 These solutions are written in different programming languages
 
 - java
+- javascript
 - kotlin
 - scala
+- ...
